@@ -7,8 +7,6 @@
 
 /* =======================================================
 *
-* 	Template Style 
-*	Edit this section
 *
 * ======================================================= */
 body {
@@ -34,6 +32,13 @@ a {
 p {
   margin-bottom: 1.5em; }
 
+  #desc {
+    color: #000;
+  }
+
+  #desc2 {
+    color: #ffffff;
+  }
 h1, h2, h3, h4, h5, h6 {
   color: #000;
   font-family: "Playfair Display", Georgia, serif;
