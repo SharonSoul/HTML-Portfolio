@@ -16,6 +16,11 @@
 .flex-slider a:hover {
   outline: none;
 }
+
+#desc4 {
+  color: #ffffff;
+} 
+
 .slides,
 .slides > li,
 .flex-control-nav,
@@ -41,10 +46,6 @@
 .flexslider .slides img {
   width: 100%;
   display: block;
-}
-
-.desc {
-  color: #ffffff;
 }
 
 .flexslider .slides:after {
