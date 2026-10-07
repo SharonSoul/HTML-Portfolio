@@ -266,7 +266,10 @@ figure {
       @media screen and (max-width: 768px) {
         #colorlib-hero .flexslider .flex-control-nav {
           right: 20px;
-          top: 100px; } }
+          left: auto;
+          top: 100px;
+          bottom: auto;
+          height: 20px; } }
       #colorlib-hero .flexslider .flex-control-nav li {
         display: block;
         margin-bottom: 10px; }
@@ -689,8 +692,10 @@ body.offcanvas {
       bottom: -30px;
       width: 0;
       height: 0;
-      border-style: solid;
+        left: auto;
       border-width: 30px 50px 0 50px;
+        bottom: auto;
+        height: 20px;
       border-color: #2c98f0 transparent transparent transparent; }
     .services .icon i {
       font-size: 30px;

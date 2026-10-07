@@ -259,8 +259,10 @@ figure {
 						bottom: 7px;
 						left: 0;
 						right: 0;
-						background-color: $brand-primary;
+							left: auto;
 						visibility: hidden;
+							bottom: auto;
+							height: 20px;
 						-webkit-transform: scaleX(0);
 						-moz-transform: scaleX(0);
 						-ms-transform: scaleX(0);
@@ -384,7 +386,10 @@ figure {
 			width: auto;
 			@media screen and(max-width: $screen-sm){
 				right: 20px;
+				left: auto;
 				top: 100px;
+				bottom: auto;
+				height: 20px;
 			}
 			li {
 				display: block;
